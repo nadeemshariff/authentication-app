@@ -7,15 +7,15 @@ export default function Header() {
         <Link to='/'>
       <h1 className='font-bold font-sans'>Auth App</h1>
       </Link>
-      <ul className='flex gap-4'>
+      <ul className='flex gap-4 '>
       <Link to='/'>
-        <li>Home</li>
+        <li className='hover:text-red-500 hover:shadow-inner'>Home</li>
       </Link>
       <Link to='/About'>
-        <li>About</li>
+        <li className='hover:text-red-500 '>About</li>
       </Link>
       <Link to='/Sign-in'>
-        <li>SignIn</li>
+        <li className='hover:text-red-500 '>SignIn</li>
       </Link>
       </ul>
       </div>
