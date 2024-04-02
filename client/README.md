@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 
 # Working
 
+1. Adding routes and creating pages

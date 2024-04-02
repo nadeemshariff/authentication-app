@@ -1,10 +1,14 @@
-import React from 'react'
+// import React from 'react'
+import {BrowserRoutes, Routes, Route} from 'react-router-dom'
 
-export default function App() {
+function App() {
   return (
-    <div className='text-red-600'>
-      App
-    </div>
+    <BrowserRoutes>
+    
+      
+    </BrowserRoutes>
   )
 }
+
+export default App
 
